@@ -97,7 +97,7 @@ typedef struct passinfo
 } info_t;
 
 #define INFO_INIT \
-{NULL,NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
+{NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
 	0, 0, 0}
 
 /**
@@ -228,7 +228,7 @@ ssize_t _getnodeindex(list_t *, list_t *);
 /* toem_vars.c */
 int ischains(info_t *, char *, size_t *);
 void check_the_chain(info_t *, char *, size_t *, size_t, size_t);
-int _repl_alias(info_t*);
+int _repl_alias(info_t *);
 int _repl_vars(info_t *);
 int _repl_str(char **, char *);
 
